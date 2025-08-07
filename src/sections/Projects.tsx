@@ -31,10 +31,10 @@ const projects = [
     tech: ["Next.js", "Tailwind CSS", "TypeScript"],
   },
   {
-    title: "E-Commerce",
+    title: "Portfolio website",
     description: "The portfolio website you are viewing right now, built with next.js and framer motion. (Had to add this for the ease of grid :D)",
     image: "/project4.png",
-    live: "https://shopeii.netlify.app/",
+    live: "https://portfolio-chi-dun-51.vercel.app/",
     github: "https://github.com/Amanyd/portfolio",
     tech: ["Next.js", "Framer-Motion", "Tailwind CSS"],
   },
