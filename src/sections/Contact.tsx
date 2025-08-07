@@ -43,7 +43,7 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto flex md:justify-between flex-col md:flex-row gap-12">
         
         <form onSubmit={handleSubmit} className="flex-1 flex flex-col justify-between gap-4">
-          <h2 className="text-3xl font-bold mb-2 text-gray-200">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-2 text-gray-200">Let&apos;s Connect</h2>
 
           <input
             type="text"

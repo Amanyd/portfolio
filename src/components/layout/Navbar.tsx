@@ -50,7 +50,7 @@ export default function Navbar() {
         rounded-xl px-6 py-3 flex items-center justify-between
         text-gray-200 z-50"
       >
-        <div className="font-bold text-lg text-gray-100">Aman's portfolio</div>
+        <div className="font-bold text-lg text-gray-100">Aman&apos;s portfolio</div>
 
         
         <div className="hidden md:flex gap-6 text-sm">

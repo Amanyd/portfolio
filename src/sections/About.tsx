@@ -17,13 +17,13 @@ export default function About(){
                 </h2>
                 <p className=" text-gray-400 text-justify leading-relaxed mb-4 max-w-lg">
                     
-                    I'm a passionate developer who enjoys building smooth,
+                    I&apos;m a passionate developer who enjoys building smooth,
                     minimal, and functional designs. I believe in creating
                     user experiences that are simple yet delightful, much like
                     this portfolio.
                 </p>
                 <p className="text-gray-400 text-justify leading-relaxed max-w-lg">
-                    When I’m not coding, you’ll probably find me exploring new
+                    When I&apos;m not coding, you&apos;ll probably find me exploring new
                     tech, learning design principles, or sipping coffee while
                     planning my next project.
                 </p>
