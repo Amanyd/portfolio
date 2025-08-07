@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+* {
+  font-family: var(--font-poppins), sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+@theme {
+  --animate-spin-slow: spin 49s linear infinite;
+  --animate-spin-slower: spin 59s linear infinite -10s;
+  --animate-spin-slowest: spin 69s linear infinite -20s;
+  
+  --animate-counter-spin-slow: counter-spin-slow 49s linear infinite;
+  --animate-counter-spin-slower: counter-spin-slower 59s linear infinite -10s;
+  --animate-counter-spin-slowest: counter-spin-slowest 69s linear infinite -20s;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Orbit 1 - slowest */
+  @keyframes counter-spin-slowest {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  /* Orbit 2 - slower */
+  @keyframes counter-spin-slower {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  /* Orbit 3 - slow */
+  @keyframes counter-spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+}
