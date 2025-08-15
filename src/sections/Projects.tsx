@@ -18,7 +18,7 @@ const projects = [
     title: "AI personal logbook",
     description: "A personal logbook where user can post their daily life and get AI generated insights to improve their life, embedded with live AI chatbot to have someone to talk to.",
     image: "/project3.png",
-    live: "https://my-core-qadj.vercel.app/",
+    live: "https://evermire.vercel.app/",
     github: "https://github.com/Amanyd/myCore",
     tech: ["MongoDB", "Next.js", "Cloudinary"],
   },
